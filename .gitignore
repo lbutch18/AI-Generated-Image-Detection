@@ -1,2 +1,5 @@
 .venv/
+training/data/
+training/practice.ipynb
 data/
+training/__pycache__/
