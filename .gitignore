@@ -2,4 +2,5 @@
 training/data/
 training/practice.ipynb
 data/
-training/__pycache__/
+training/defactify/__pycache__/
+training/ntire/training_notebooks/__pycache__/
