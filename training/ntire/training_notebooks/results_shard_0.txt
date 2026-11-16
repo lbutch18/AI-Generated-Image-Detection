@@ -1,0 +1,53 @@
+Overall: 10000 images
+              precision    recall  f1-score   support
+
+        Real      0.821     0.811     0.816      5000
+AI-generated      0.813     0.823     0.818      5000
+
+    accuracy                          0.817     10000
+   macro avg      0.817     0.817     0.817     10000
+weighted avg      0.817     0.817     0.817     10000
+
+Confusion matrix (rows: actual, columns: predicted; order: Real, AI-generated):
+[[4054  946]
+ [ 884 4116]]
+Balanced accuracy: 0.8170
+Brier score (lower is better): 0.1631
+Log loss (lower is better): 1.1322
+ROC-AUC (higher is better): 0.895790
+
+Clean: 5000 images
+              precision    recall  f1-score   support
+
+        Real      0.867     0.871     0.869      2500
+AI-generated      0.870     0.866     0.868      2500
+
+    accuracy                          0.868      5000
+   macro avg      0.868     0.868     0.868      5000
+weighted avg      0.868     0.868     0.868      5000
+
+Confusion matrix (rows: actual, columns: predicted; order: Real, AI-generated):
+[[2177  323]
+ [ 335 2165]]
+Balanced accuracy: 0.8684
+Brier score (lower is better): 0.1174
+Log loss (lower is better): 0.7298
+ROC-AUC (higher is better): 0.939872
+
+Distorted (robustness): 5000 images
+              precision    recall  f1-score   support
+
+        Real      0.774     0.751     0.762      2500
+AI-generated      0.758     0.780     0.769      2500
+
+    accuracy                          0.766      5000
+   macro avg      0.766     0.766     0.766      5000
+weighted avg      0.766     0.766     0.766      5000
+
+Confusion matrix (rows: actual, columns: predicted; order: Real, AI-generated):
+[[1877  623]
+ [ 549 1951]]
+Balanced accuracy: 0.7656
+Brier score (lower is better): 0.2089
+Log loss (lower is better): 1.5346
+ROC-AUC (higher is better): 0.844952
